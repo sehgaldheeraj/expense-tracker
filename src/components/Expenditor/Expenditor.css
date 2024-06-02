@@ -1,0 +1,37 @@
+.expenditor-container {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: pink;
+  border-radius: 15px 15px 15px 15px;
+  padding: 5px;
+  text-align: center;
+}
+
+.expenditor-card {
+  background-color: gainsboro;
+  padding: 25px;
+  width: -webkit-fill-available;
+  margin: 25px;
+  border-radius: 15px;
+}
+
+.expenditor-card button {
+  border: none;
+  padding: 10px;
+  background: linear-gradient(45deg, pink, #f2d6df);
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  font-weight: 600;
+  width: 20em;
+  color: white;
+}
+.expenditor-card button:hover {
+  background: linear-gradient(44deg, white, pink);
+}
+
+.expenditor-card h3 {
+  font-size: xx-large;
+  margin-top: 0px;
+}
